@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="ISO-8859-1">
+
+	<!-- jQuery library -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="import/jquery-1.11.3.min.js"></script>
+	<script src="import/jquery-1.11.3.js"></script>
+	<script src="import/bootstrap.js"></script>
+	<!-- jQuery library -->
+
+	<%-- MENU --%>
+	<div class="col-md-12">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">TeleView</a>
+				</div>
+				<div>
+					<ul class="nav navbar-nav">
+						<li role="presentation" class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cadastrar<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="http://localhost:8080/TeleView-1.0-SNAPSHOT/usuarioCadastro.jsp">Usuário</a></li>
+								<li><a href="http://localhost:8080/TeleView-1.0-SNAPSHOT/bairroCadastro.jsp">Bairro</a></li>
+								<li><a href="http://localhost:8080/TeleView-1.0-SNAPSHOT/EmpresaController?acao=prepara">Empresa</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav">
+						<li role="presentation" class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Editar<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="http://localhost:8080/TeleView-1.0-SNAPSHOT/UsuarioController?acao=lis">Usuário</a></li>
+								<li><a href="http://localhost:8080/TeleView-1.0-SNAPSHOT/BairroController?acao=lis">Bairro</a></li>
+								<li><a href="http://localhost:8080/TeleView-1.0-SNAPSHOT/EmpresaController?acao=lis">Empresa</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="http://localhost:8080/TeleView-1.0-SNAPSHOT/login.jsp">
+								<span class="glyphicon glyphicon-log-out"></span> Sair
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+</head>
+<body>
+</body>
+</html>
